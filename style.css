@@ -1,36 +1,40 @@
-/* You're welcome to change any of this! */
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    /* margin: 0px; */
+  
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: black;
     color: white;
-    /* overflow: scroll; */
+    padding: 0px;
 }
 
 header {
-    font-family: 'Roboto Mono', monospace;
-    background-color: black;
-    text-align: center;
-}
-header, section {
-    padding: 8px;
-}
-
-
-footer {
-    background-color: whitesmoke;
-    color: black;
-    height: 25%;
-    width: 100%;
-    bottom: 0;
     position: fixed;
-    left: 0;
-    padding-left: 10px;
+    height: 15%;
+    font-family: 'Roboto Mono', monospace;
+    background-color:black;
+    width: 100%;
+    margin-top: -20px;
+    text-align: center;
+    padding: 20px;
 }
+
+main {
+    padding-top: 10%;
+}
+
+ul {
+    list-style-type: square;
+}
+li {
+    padding: 3px;
+}
+
+
+
 a:link, a:visited {
     color:white;
     text-decoration: none;
@@ -39,33 +43,11 @@ a:hover{
     font-weight: bolder;
 
 }
-.footer:link, .footer:visited{
-    color: white;
-}
+
  p {
      font-weight: bold;
-
  }
- ul {
-    padding: 0;
-    width: 100%;
-  }
-  li {
-    display: inline;
-  }
-a.footer {
-    outline: none;
-    text-decoration: none;
-    display: inline;
-    width: 19.5%;
-    margin-right: 0.625%;
-    /* text-align: center; */
-    line-height: 3;
-    color: black;
-    background:black;
-    padding: 10px;
-}
-#homework {
-    padding-bottom: 5px;
-}
+
+
+
   
