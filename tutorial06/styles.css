@@ -56,6 +56,8 @@ main div h2 {
     font-size: 0.9em;
 }
 
+
+
 @media (max-width: 1200px) {
     main div {
         width: calc(33.33% - 20px);
