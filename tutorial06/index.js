@@ -121,6 +121,7 @@ for (const track of tracks) {
 // logic.
 const playSong = (ev) => {
     const idx = Number(ev.currentTarget.dataset.index);
+    console.log(idx);
     document.querySelector('#audio-source').src = tracks[idx].preview_url;
     const audio = document.querySelector('audio');
     audio.load();
