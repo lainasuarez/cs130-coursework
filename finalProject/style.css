@@ -1,0 +1,180 @@
+
+
+body {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "main"; 
+    background-color: #EDF6F9;
+    color: black;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+header {
+    grid-area: header;
+    background-color:#E29578;
+    /* color: #414361; */
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Luckiest Guy', cursive;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #fcc6b3;
+    /* background-color:#FFDDD2; */
+    height: 7vh;
+    /* color: white; */
+}
+
+#main-content {
+    grid-area: main;
+    background-color: #EDF6F9;
+    margin: 0px;
+    height: calc(100vh - 7vh);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+header, nav, #main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-items {
+    margin: 0;
+    display: flex;
+
+}
+.nav-item {
+    /* color: #BADEDB; */
+    font-weight: bold;
+    list-style: none;
+    margin: 5rem;
+}
+.nav-item a, .nav-item a:visited {
+    text-decoration: none;
+    /* color: #414361; */
+    color: white;
+    /* color:#00383D; */
+}
+
+.nav-item a:hover {
+    color:#E29578;
+}
+strong {
+    border-bottom: solid 1px;
+    color: #E29578;
+}
+
+.review-card > div img {
+ height: 100%;
+ width: 100%;
+ border-top-left-radius: 6%;
+ border-top-right-radius: 6%;
+
+}
+
+.review-card {
+   
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 20%;
+    /* padding: 10px; */
+    text-align: center;
+    background-color: white;
+    border-radius: 5%;
+    height: 45%;
+    justify-content: space-between;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px lightgray;
+    /* border: solid 1px lightgray; */
+}
+
+
+.review-card:visited {
+    color: black;
+}
+
+.review-card:hover {
+    opacity: 55%;
+}
+
+.review-card> div h3 {
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.review-card > div p{
+    margin: 0px;
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 3%;
+    color: gray;
+}
+
+#article {
+    justify-content: left;
+}
+
+.article-body {
+    margin: 20px;
+    height: 100%;
+    width: 94%;
+    background-color: white;
+    padding: 20px;
+}
+.article-body > img {
+    height: 30%;
+    width: 100%;
+}
+
+
+/* @media screen and (max-width: 1200px) {
+    .review-card {
+        width: 25%;
+        margin: 2%;
+        padding: 10px;
+    }
+    .review-card > div img {
+        margin: 0;
+    }
+
+} 
+
+
+@media screen and (max-width: 900px) {
+    .review-card {
+        width: 35%;
+    }
+    .reviw-card > div img {
+        height: 30%;
+        width: 30%;
+        
+
+    }
+    header {
+        width: 900px;
+    }
+
+} 
+
+@media screen and (max-width: 700px) {
+    .reviw-card {
+        width: 100%;
+        margin: 2%;
+    }
+
+
+}  */
